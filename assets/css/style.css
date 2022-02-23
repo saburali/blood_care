@@ -18,6 +18,7 @@ a {
 
 .title {
     color: #333;
+    font-size: 48px;
     font-weight: bold;
     font-family: 'Cookie', cursive;
 }
@@ -107,4 +108,43 @@ a {
 .banner-left .btn {
     margin-top: 30px;
     display: inline-block;
+}
+
+/* Basic Info Section */
+#blood {
+    padding: 1px 0 80px;
+    background-color: #fbf4f4;;
+}
+
+#blood h3 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#blood p {
+    margin: 0 auto;
+}
+
+.blood {
+    width: 28%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px gray;
+    margin-top: 40px;
+}
+
+.blood-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.blood-content .title {
+    margin: 20px 0 15px;
+    font-size: 30px !important;
+}
+
+.blood-content p {
+    margin-bottom: 0;
+    line-height: 23px;
+    text-align: justify;
 }
