@@ -227,7 +227,6 @@ a {
 /* Volunteer */
 .volunteer {
     padding: 80px 0;
-    margin-bottom: 80px;
     background-image: url("../image/divider-bg.jpg");
     background-size: cover;
     background-position: left;
@@ -272,4 +271,47 @@ a {
 .counter-content .count p {
     margin: 0;
     letter-spacing: 2px;
+}
+
+/* App Download */
+#app {
+    padding: 50px 0;
+    background-color: #d7eafb;
+}
+
+.app-content {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.app-content .title {
+    margin: 25px 0;
+}
+
+.app-content img {
+    width: 100%;
+}
+
+/* Footer */
+#footer {
+    background-color: #0b0e17;
+}
+
+.footer {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .title a {
+    color: #fff;
+    font-size: 38px;
+    text-decoration: none;
+}
+
+
+.footer p {
+    margin: 0;
+    color: gainsboro;
 }
