@@ -118,6 +118,56 @@ a {
     display: inline-block;
 }
 
+/* About start  */
+#about {
+    padding: 200px 0;
+    margin-bottom: 85px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/about-bg.jpg");
+}
+
+.about-content {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-content h3 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.about-content .btn {
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.about-content .sub-common-width {
+    margin-left: -20px;
+}
+
+.about-content .sub-common-width ul {
+    margin: 0 0 10px 0;
+}
+
+.about-content .sub-common-width ul li {
+    margin-bottom: 5px;
+}
+
+#about .btn {
+    min-width: 250px;
+    border-radius: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+
 /* Basic Info Section */
 #blood {
     padding: 1px 0 80px;
@@ -177,6 +227,7 @@ a {
 /* Volunteer */
 .volunteer {
     padding: 80px 0;
+    margin-bottom: 80px;
     background-image: url("../image/divider-bg.jpg");
     background-size: cover;
     background-position: left;
