@@ -46,6 +46,14 @@ a {
     width: 50%;
 }
 
+.triple-width {
+    width: 65%;
+}
+
+.one-width {
+    width: 35%;
+}
+
 .sub-common-width,
 .common-width {
     display: flex;
@@ -147,4 +155,21 @@ a {
     margin-bottom: 0;
     line-height: 23px;
     text-align: justify;
+}
+
+/* Donation Section */
+#donation {
+    padding: 80px 0;
+}
+
+#donation img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px grey;
+}
+
+#donation .one-width p {
+    color: #7a797e;
 }
