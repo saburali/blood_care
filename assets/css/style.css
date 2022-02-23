@@ -173,3 +173,29 @@ a {
 #donation .one-width p {
     color: #7a797e;
 }
+
+/* Counter */
+.counter-content {
+    width: 100%;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    box-shadow: 0 2px 10px gray;
+}
+
+.counter-content .count {
+    float: left;
+    width: 33.33%;
+}
+
+.counter-content .count h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 0 20px 0;
+}
+
+.counter-content .count p {
+    margin: 0;
+    letter-spacing: 2px;
+}
